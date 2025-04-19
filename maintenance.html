@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance</title>
+   
+</head>
+<body>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+         body{
+    background-color: #ffdfcd;
+}
+.back button{
+    color: white;
+    margin: 15px;
+    background-color: red;
+    border: 1px solid rgb(224, 67, 4);
+    width: 50px;
+    border-radius: 4px;
+}
+.container{
+    margin-left: 130px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.mechanic{
+    width:300px ;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 8px 3px rgb(31, 176, 215);
+}
+.mechanic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: white;
+}
+.oil{
+    width:300px ;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 8px 3px rgb(31, 176, 215);
+}
+.oil img{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+  
+}
+.tax{
+    width:300px ;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 8px 3px rgb(31, 176, 215);
+}
+.tax img{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+h1{
+   color:  rgb(31, 176, 215);
+    text-align: center;
+    padding: 20px;   
+}
+h3{
+    text-align: center;
+    padding: 10px;
+}
+ol{
+    padding: 20px;
+}
+p{
+    color: red;
+    margin: 20px;
+    padding: 20px;
+}
+@media screen and (max-width:767px) {
+   .container{
+    margin-left: 10px;
+   } 
+}
+
+    </style>
+    <div class="back">
+        <button>Back</button>
+      </div>
+      <h1>Maintenance And More...</h1>
+<div class="container">
+    <div class="mechanic">
+        <h3>Repairs</h3>
+        <img src="./asset/mechanic.jpg" alt=""> 
+        <ol>April: No Repairs Were Made.</ol> 
+    </div>
+    <div class="oil">
+        <h3>Oil Change</h3>
+        <img src="./asset/oil.jpg" alt="">
+        <ol> Oil Changed 2April($10).</ol>
+        <ol> Oil Changed 17April($11).</ol>
+    </div>
+    
+    <div class="tax">
+        <h3>Tax</h3>
+        <img src="./asset/tax.png" alt="">
+        <ol> Paid: 6April($30).</ol>
+    </div>
+    
+</div>
+<p>Hint: Tax due on 28th Every Month and Oil Should be Change on every 15days.</p>
+
+
+
+
+     <script src="main.js"></script>   
+</body>
+</html>

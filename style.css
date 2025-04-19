@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{   
+    background-color: #ffdfcd;
+}
+
+h3{
+    margin: 10px;
+    color: rgb(53, 109, 157);
+    text-align: center;
+}
+
+.hero{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.welcome img{
+width: 500px;
+height: 500px;
+margin-top: 200px;
+margin-right: 100px;
+}
+.hero video{
+    width: 300px;
+    object-fit: cover;
+    height: 300px;
+    top: 60%;
+    left: 60%;
+    min-width: 50%;
+    min-height: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.cards{
+    padding: 30px;
+    margin-left: 150px;
+    width: 1000px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 3px rgb(31, 176, 215);
+}
+.rules img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 9px rgb(84, 85, 86);
+}
+.budget img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 9px rgb(84, 85, 86);
+}
+.tools img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 9px rgb(84, 85, 86);
+}
+.income img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 9px rgb(84, 85, 86);
+}
+
+footer{
+    background-color: rgb(49, 41, 41);
+    text-align: center;
+    color: aliceblue;
+}
+
+@media screen and (max-width:767px) {
+   
+    footer{
+        background-color: rgb(49, 41, 41);
+        width: 1800px;
+        height: 300px;
+        text-align: center;
+        color: aliceblue;
+        margin-top: 2200px;
+        font-size: 50px;
+    }
+    .all{
+        width: 1000px;
+        height: 1500px;
+        display: flex;
+        justify-content:center;
+    }
+    .hero{
+        position: absolute;
+        height: 100vh;
+        width: 1000px;
+        overflow: hidden;
+    }
+    .hero video{
+        width: 700px;
+        object-fit:fill;
+        height: 200px;
+        top: 60%;
+        left: 100%;
+        min-width: 50%;
+        min-height: 50%;
+        transform: translate(-60%, -50%);
+        z-index: -1;
+        position: relative;
+        border-radius: 80px;
+    
+    }
+    .cards{
+        font-size: 57px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+        padding: 40px;
+        margin-left: 160px;
+        width: 1500px;
+        height: 1500px;
+        background-color: white;
+        margin-top: 2000px;    
+    }
+    .rules img{
+
+        width: 600px;
+        height: 600px;
+        border-radius: 30px;
+        box-shadow: 10px 10px 3px  rgb(73, 73, 74);
+    }
+    .budget img{
+        width: 600px;
+        height: 600px;
+         border-radius: 30px;
+        box-shadow: 10px 10px 3px  rgb(73, 73, 74);
+    }
+    .tools img{
+        width: 600px;
+        height: 600px;
+        border-radius: 30px;
+        box-shadow: 10px 10px 3px  rgb(73, 73, 74);
+    }
+    .income img{
+         width: 600px;
+        height: 600px;
+        border-radius: 30px;
+        box-shadow: 10px 10px 3px  rgb(73, 73, 74);
+    }
+    .welcome img{
+        width: 1900px;
+        height: 1900px;
+        margin-top: 200px;
+        margin-left: 1200px;
+        }
+  
+}
